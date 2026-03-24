@@ -7,16 +7,8 @@ export default function Players({ playerName, playerSymbol }) {
     const [name, setName] = useState(playerName);
 
     const handleName = () => {
-
-        setBtn("Save");
-        // if (clicked) {
-        //     setClicked(false);
-        // } else {
-        //     setClicked(true);
-        // }
-
         setClicked((click) => !clicked);
-
+        setBtn(clicked ? "Edit" : "Save")
     }
 
 
