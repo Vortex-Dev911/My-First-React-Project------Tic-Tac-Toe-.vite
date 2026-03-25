@@ -1,5 +1,5 @@
 import Players from './components/Players.jsx';
-import Buttons from './components/Buttons.jsx';
+import GameBoard from './components/GameBoard.jsx';
 
 function App() {
   
@@ -13,19 +13,7 @@ function App() {
         </ol>
 
         GAME BOARD!
-        <span id="game-board">
-          <ol>
-            <Buttons></Buttons>
-            <Buttons></Buttons>
-            <Buttons></Buttons>
-            <Buttons></Buttons>
-            <Buttons></Buttons>
-            <Buttons></Buttons>
-            <Buttons></Buttons>
-            <Buttons></Buttons>
-            <Buttons></Buttons>
-          </ol>
-        </span>
+        <GameBoard />
         </div>
 
         LOG
